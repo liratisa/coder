@@ -44,5 +44,5 @@ app.post("/products", async (req, res) => {
 });
 
 app.listen(8080, () => {
-  console.log("Rodando na porta 8080");
+  console.log("Running on port 8080");
 });

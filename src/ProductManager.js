@@ -11,7 +11,7 @@ class ProductManager {
     const emptyCheck = Object.values(productInfo).some((element) => !element);
 
     if (emptyCheck) {
-      throw new Error("Todos os campos são obrigatórios.");
+      throw new Error("All fields are required.");
     }
 
     this.products.push({ ...productInfo, code: this.code++ });
@@ -34,8 +34,7 @@ class ProductManager {
     if (searchById) {
       return searchById;
     }
-
-    throw new Error("Produto não encontrado");
+    throw new Error("Product not found.");
   }
 
   updateProduct(id, attributes) {
@@ -52,7 +51,7 @@ class ProductManager {
       return this.products;
     }
 
-    return "Produto não encontrado.";
+    throw new Error("Product not found.");
   }
 
   deleteProductById(id) {
@@ -67,7 +66,7 @@ class ProductManager {
       return this.products;
     }
 
-    return "Produto não encontrado.";
+    throw new Error("Product not found.");
   }
 }
 
