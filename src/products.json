@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Notebook",
+        "description": "Computador pessoal portátil",
+        "price": 4500,
+        "thumbnail": "foto.jpg",
+        "stock": 15,
+        "code": 0
+    },
+    {
+        "title": "Macaco",
+        "description": "Computador pessoal portátil",
+        "price": 4500,
+        "thumbnail": "foto.jpg",
+        "stock": 15,
+        "code": 1
+    },
+    {
+        "title": "Alface",
+        "description": "Computador pessoal portátil",
+        "price": 4500,
+        "thumbnail": "foto.jpg",
+        "stock": 15,
+        "code": 2
+    }
+]
