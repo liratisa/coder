@@ -72,30 +72,3 @@ class ProductManager {
 }
 
 export default ProductManager;
-// const productBase = new ProductManager("products.json");
-
-// productBase.addProduct({
-//   title: "Notebook",
-//   description: "Computador pessoal portátil",
-//   price: 4500,
-//   thumbnail: "foto.jpg",
-//   stock: 15,
-// });
-
-// productBase.addProduct({
-//   title: "Teclado Gamer",
-//   description: "Teclado para jogos online",
-//   price: 270,
-//   thumbnail: "foto.jpg",
-//   stock: 8,
-// });
-
-// productBase.getProductById(1);
-
-// productBase.updateProduct(1, {
-//   title: "Novo título",
-//   description: "Nova descrição",
-//   price: 48,
-//   thumbnail: "nova_foto.jpg",
-//   stock: 1,
-// });

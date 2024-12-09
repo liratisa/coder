@@ -8,19 +8,19 @@
         "code": 0
     },
     {
-        "title": "Macaco",
-        "description": "Computador pessoal portátil",
-        "price": 4500,
+        "title": "Teclado",
+        "description": "Teclado para jogos",
+        "price": 120,
         "thumbnail": "foto.jpg",
-        "stock": 15,
+        "stock": 5,
         "code": 1
     },
     {
-        "title": "Alface",
-        "description": "Computador pessoal portátil",
-        "price": 4500,
+        "title": "Headset",
+        "description": "Headset com entrada USB",
+        "price": 450,
         "thumbnail": "foto.jpg",
-        "stock": 15,
+        "stock": 8,
         "code": 2
     }
 ]
